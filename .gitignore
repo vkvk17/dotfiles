@@ -9,3 +9,4 @@ dot_config/doom/.local/
 *.elc
 # 系统生成缓存
 .cache/
+custom.el
