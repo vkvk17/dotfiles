@@ -6,10 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-;; (setq user-full-name "John Doe"
-;;       user-mail-address "john@doe.com")
-
-
+(setq user-full-name "vkvk17"
+      user-mail-address "vkvkvoid17@gmail.com")
 
 (setq-default
  delete-by-moving-to-trash t                      ; Delete files to trash
@@ -70,7 +68,7 @@
 (setq org-directory "~/org/")
 
 
-(add-to-list 'initial-frame-alist '(fullscreen . maximized))
+;; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `with-eval-after-load' block, otherwise Doom's defaults may override your
@@ -94,7 +92,6 @@
 ;;   `require' or `use-package'.
 ;; - `map!' for binding new keys
 
-
 ;; To get information about any of these functions/macros, move the cursor over
 ;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
 ;; This will open documentation for it, including demos of how they are used.
@@ -103,6 +100,8 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+// Pyim 输入法设置
 (after! pyim
   (setq pyim-isearch-mode t)
   (setq-default pyim-punctuation-translate-p '(auto))
