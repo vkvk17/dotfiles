@@ -67,7 +67,6 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
-
 ;; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
@@ -92,6 +91,7 @@
 ;;   `require' or `use-package'.
 ;; - `map!' for binding new keys
 
+
 ;; To get information about any of these functions/macros, move the cursor over
 ;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
 ;; This will open documentation for it, including demos of how they are used.
@@ -101,11 +101,10 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-// Pyim 输入法设置
+;; Pyim 输入法设置
 (after! pyim
   (setq pyim-isearch-mode t)
   (setq-default pyim-punctuation-translate-p '(auto))
-
   ;; 激活简体基础词库
   (pyim-basedict-enable)
 )
