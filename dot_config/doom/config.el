@@ -108,3 +108,5 @@
   ;; 激活简体基础词库
   (pyim-basedict-enable)
 )
+
+;; test
